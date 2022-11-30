@@ -180,7 +180,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-11-30 22:33:00" itemprop="dateModified" datetime="2022-11-30T22:33:00+08:00">2022-11-30</time>
+                <time title="修改时间：2022-11-30 22:43:42" itemprop="dateModified" datetime="2022-11-30T22:43:42+08:00">2022-11-30</time>
               </span>
 
           
@@ -307,7 +307,27 @@ a_1^{'} \\ a_2^{'} \\a_3^{'}
         &= 3cos\theta + 1-cos\theta \\
         &= 1 + 2cos\theta
     \end{split}
-\end{aligned}</script>
+\end{aligned}</script><script type="math/tex; mode=display">
+\begin{equation} 
+    \theta = arccos\frac{tr(R)-1}{2}
+\end{equation}</script><p>对于旋转轴，旋转后不发生改变:<br>\begin{equation}<br>    Rn = n<br>\end{equation}<br>所以转轴为旋转矩阵R特征值为一的特征向量</p>
+<ul>
+<li>欧拉角<br>用三个分离的转角直观的描述旋转。<script type="math/tex; mode=display">
+\begin{itemize}
+  \item 绕Z轴旋转,得到偏航角Yaw
+  \item 绕Y轴旋转,得到俯仰角Pitch
+  \item 绕X轴旋转,得到滚转角Roll
+\end{itemize}</script>缺点:万向锁问题。</li>
+</ul>
+<h3 id="1-4四元数"><a href="#1-4四元数" class="headerlink" title="1.4四元数"></a>1.4四元数</h3><ul>
+<li>四元数:紧凑、没有奇异性。一个四元数由一个实部和三个虚部组成。<script type="math/tex; mode=display">
+   q = q_0 + q_1i + q_2j + q_3k</script>其中i,j,k为四元数的虚部</li>
+</ul>
+<p>假设有一个三维点$p = [x,y,z] \in \mathbb{R}^3$,以及一个由单位四元数q指定的旋转。用一个虚四元数表示三维空间点:</p>
+<script type="math/tex; mode=display">
+\begin{equation}
+    p = [0,x,y,z]^T = [0,v]^T.
+\end{equation}</script>
       
     </div>
 
