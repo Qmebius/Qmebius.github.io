@@ -3,6 +3,36 @@
   
     
     <entry>
+      <title><![CDATA[ORB-SLAM2]]></title>
+      <url>/2022/12/01/ORB-SLAM2/</url>
+      <content type="html"><![CDATA[<h1 id="����ѧϰ-��ORB-SLAM2��"><a href="#����ѧϰ-��ORB-SLAM2��" class="headerlink" title="����ѧϰ ��ORB-SLAM2��"></a>����ѧϰ ��ORB-SLAM2��</h1><h2 id="������Ϣ"><a href="#������Ϣ" class="headerlink" title="������Ϣ"></a>������Ϣ</h2><p>��Ŀ: ��ORB-SLAM2: an Open-Source SLAM System for<br>Monocular, Stereo and RGB-D Cameras�� \<br>����: Ra��l Mur-Artal and Juan D. Tard��s \<br>�ڿ�: IEEE Transactions on Robotics</p>
+<h2 id="������L�g�����"><a href="#������L�g�����" class="headerlink" title="������Ŀ�ġ�����"></a>������Ŀ�ġ�����</h2><p>����:��Ȼ���ڵ�Ŀ���Ӿ�SLAM����Ϊ���õķ��������������Ϣ���ܴӵ�һ����۲⵽�����µ�ͼ�ĳ߶Ⱥ͹��ƵĹ켣��δ֪��,��ϵͳ������������Ҫ����ͼ���ɳ�ʼӳ�䡣��ĿSLAM��̽��ʱ�����ڳ߶�Ư�����Ⲣ���ܽ������ת���⡣</p>
+<p>Ŀ��:ʹ��˫Ŀ��RGB-D��������Ŀ������ڵ����⡣</p>
+<p>����:</p>
+<ul>
+<li>��һ�����ڵ�Ŀ�������RGB-D����Ŀ�ԴSLAMϵͳ�������ջ������¶�λ�͵�ͼ����</li>
+<li>����BA���������ICP�͹�Ⱥ���������С�������·�����Ⱦ��и��ߵ�׼ȷ��</li>
+<li>ͨ��ʹ�ý���Զ�����͵�Ŀ�۲⣬�õ����������������µ�ֱ��˫ĿSLAM</li>
+<li>�����һ���������Ķ�λģʽ�������ڵ�ͼ������ʱ��Чʹ�õ�ͼ</li>
+</ul>
+<p>�����һ�������İ�����Ŀ��˫Ŀ��RGB-D��������SLAMϵͳ���ܹ���CPU��׼��ִ�����¶�λ���ػ����͵�ͼ���ù��ܡ�</p>
+<h2 id="���������"><a href="#���������" class="headerlink" title="���������"></a>���������</h2><p>���������е����ݼ��Ͻ��������������������������˱Ƚϡ�</p>
+<ul>
+<li>A. KITTI </li>
+</ul>
+<p><img src="1.png" alt="ͼƬ"></p>
+<ul>
+<li><p>B. EuRoC </p>
+</li>
+<li><p>C.</p>
+</li>
+</ul>
+<h2 id="��Ҫ����"><a href="#��Ҫ����" class="headerlink" title="��Ҫ����"></a>��Ҫ����</h2><h2 id="�j�"><a href="#�j�" class="headerlink" title="�ĵ�"></a>�ĵ�</h2>]]></content>
+      
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[《视觉SLAM十四讲》第三讲笔记]]></title>
       <url>/2022/11/25/page1/</url>
       <content type="html"><![CDATA[<h1 id="三维空间刚体运动"><a href="#三维空间刚体运动" class="headerlink" title="三维空间刚体运动"></a>三维空间刚体运动</h1><h2 id="1-旋转矩阵"><a href="#1-旋转矩阵" class="headerlink" title="1.旋转矩阵"></a>1.旋转矩阵</h2><h3 id="1-1点、向量、坐标系"><a href="#1-1点、向量、坐标系" class="headerlink" title="1.1点、向量、坐标系"></a>1.1点、向量、坐标系</h3><p>三维空间点用$\mathbb{R}^3$表示,对于空间中任意基底$[e_1,e_2,e_3]$有如下表示: </p>
