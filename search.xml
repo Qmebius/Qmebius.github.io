@@ -3,9 +3,11 @@
   
     
     <entry>
-      <title><![CDATA[ORB-SLAM2]]></title>
+      <title><![CDATA[论文学习:《ORB-SLAM2》]]></title>
       <url>/2022/12/01/ORB-SLAM2/</url>
-      <content type="html"><![CDATA[<h1 id="论文学习-《ORB-SLAM2》"><a href="#论文学习-《ORB-SLAM2》" class="headerlink" title="论文学习 《ORB-SLAM2》"></a>论文学习 《ORB-SLAM2》</h1><h2 id="文章信息"><a href="#文章信息" class="headerlink" title="文章信息"></a>文章信息</h2><p>题目: 《ORB-SLAM2: an Open-Source SLAM System for<br>Monocular, Stereo and RGB-D Cameras》 \<br>作者: Raúl Mur-Artal and Juan D. Tardós \<br>期刊: IEEE Transactions on Robotics</p>
+      <content type="html"><![CDATA[<h2 id="文章信息"><a href="#文章信息" class="headerlink" title="文章信息"></a>文章信息</h2><p>题目: 《ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras》 </p>
+<p>作者: Raúl Mur-Artal and Juan D. Tardós </p>
+<p>期刊: IEEE Transactions on Robotics</p>
 <h2 id="背景、目的、结论"><a href="#背景、目的、结论" class="headerlink" title="背景、目的、结论"></a>背景、目的、结论</h2><p>背景:虽然基于单目的视觉SLAM是最为经济的方案，但是深度信息不能从单一相机观测到，导致地图的尺度和估计的轨迹是未知的,且系统自引导启动需要多视图生成初始映射。单目SLAM在探索时还存在尺度漂移问题并不能解决纯旋转问题。</p>
 <p>目的:使用双目和RGB-D相机解决单目相机存在的问题。</p>
 <p>结论:</p>
