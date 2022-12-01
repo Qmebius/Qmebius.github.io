@@ -34,8 +34,8 @@
 <ul>
 <li>D. Timing results </li>
 </ul>
-<p><img src="./4.png" alt="图片"></p>
-<h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><p>ORB-SLAM2具有三个线程:目标跟踪、建图、回环检测整体流程如下图:<br><img src="./5.png" alt="图片"></p>
+<p><img src="4.png" alt="图片"></p>
+<h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><p>ORB-SLAM2具有三个线程:目标跟踪、建图、回环检测整体流程如下图:<br><img src="5.png" alt="图片"></p>
 <h3 id="单目-近、远关键点"><a href="#单目-近、远关键点" class="headerlink" title="单目,近、远关键点"></a>单目,近、远关键点</h3><p>ORB-SLAM2将三种相机的输入均处理为单目关键点和双目关键点。其中双目关键点又被分为近点和远点。坐标定义为:$X_s = (u_L,v_L,u_R)$,下标L为左图坐标u为横坐标。 </p>
 <p>RGB-D关键点$(u_L,v_L)$计算为双目关键点:</p>
 <script type="math/tex; mode=display">
