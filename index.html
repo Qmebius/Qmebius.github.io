@@ -174,7 +174,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2022-12-01 14:38:05 / 修改时间：14:40:15" itemprop="dateCreated datePublished" datetime="2022-12-01T14:38:05+08:00">2022-12-01</time>
+              <time title="创建时间：2022-12-01 14:38:05 / 修改时间：14:43:49" itemprop="dateCreated datePublished" datetime="2022-12-01T14:38:05+08:00">2022-12-01</time>
             </span>
 
           
@@ -209,29 +209,29 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="����ѧϰ-��ORB-SLAM2��"><a href="#����ѧϰ-��ORB-SLAM2��" class="headerlink" title="����ѧϰ ��ORB-SLAM2��"></a>����ѧϰ ��ORB-SLAM2��</h1><h2 id="������Ϣ"><a href="#������Ϣ" class="headerlink" title="������Ϣ"></a>������Ϣ</h2><p>��Ŀ: ��ORB-SLAM2: an Open-Source SLAM System for<br>Monocular, Stereo and RGB-D Cameras�� \<br>����: Ra��l Mur-Artal and Juan D. Tard��s \<br>�ڿ�: IEEE Transactions on Robotics</p>
-<h2 id="������L�g�����"><a href="#������L�g�����" class="headerlink" title="������Ŀ�ġ�����"></a>������Ŀ�ġ�����</h2><p>����:��Ȼ���ڵ�Ŀ���Ӿ�SLAM����Ϊ���õķ��������������Ϣ���ܴӵ�һ����۲⵽�����µ�ͼ�ĳ߶Ⱥ͹��ƵĹ켣��δ֪��,��ϵͳ������������Ҫ����ͼ���ɳ�ʼӳ�䡣��ĿSLAM��̽��ʱ�����ڳ߶�Ư�����Ⲣ���ܽ������ת���⡣</p>
-<p>Ŀ��:ʹ��˫Ŀ��RGB-D��������Ŀ������ڵ����⡣</p>
-<p>����:</p>
+          <h1 id="论文学习-《ORB-SLAM2》"><a href="#论文学习-《ORB-SLAM2》" class="headerlink" title="论文学习 《ORB-SLAM2》"></a>论文学习 《ORB-SLAM2》</h1><h2 id="文章信息"><a href="#文章信息" class="headerlink" title="文章信息"></a>文章信息</h2><p>题目: 《ORB-SLAM2: an Open-Source SLAM System for<br>Monocular, Stereo and RGB-D Cameras》 \<br>作者: Raúl Mur-Artal and Juan D. Tardós \<br>期刊: IEEE Transactions on Robotics</p>
+<h2 id="背景、目的、结论"><a href="#背景、目的、结论" class="headerlink" title="背景、目的、结论"></a>背景、目的、结论</h2><p>背景:虽然基于单目的视觉SLAM是最为经济的方案，但是深度信息不能从单一相机观测到，导致地图的尺度和估计的轨迹是未知的,且系统自引导启动需要多视图生成初始映射。单目SLAM在探索时还存在尺度漂移问题并不能解决纯旋转问题。</p>
+<p>目的:使用双目和RGB-D相机解决单目相机存在的问题。</p>
+<p>结论:</p>
 <ul>
-<li>��һ�����ڵ�Ŀ�������RGB-D����Ŀ�ԴSLAMϵͳ�������ջ������¶�λ�͵�ͼ����</li>
-<li>����BA���������ICP�͹�Ⱥ���������С�������·�����Ⱦ��и��ߵ�׼ȷ��</li>
-<li>ͨ��ʹ�ý���Զ�����͵�Ŀ�۲⣬�õ����������������µ�ֱ��˫ĿSLAM</li>
-<li>�����һ���������Ķ�λģʽ�������ڵ�ͼ������ʱ��Чʹ�õ�ͼ</li>
+<li>第一个用于单目、立体和RGB-D相机的开源SLAM系统，包括闭环、重新定位和地图重用</li>
+<li>基于BA方法与基于ICP和光度和深度误差最小化的最新方法相比具有更高的准确度</li>
+<li>通过使用近、远立体点和单目观测，得到的立体结果优于最新的直接双目SLAM</li>
+<li>提出了一个轻量化的定位模式，可以在地图被禁用时有效使用地图</li>
 </ul>
-<p>�����һ�������İ�����Ŀ��˫Ŀ��RGB-D��������SLAMϵͳ���ܹ���CPU��׼��ִ�����¶�λ���ػ����͵�ͼ���ù��ܡ�</p>
-<h2 id="���������"><a href="#���������" class="headerlink" title="���������"></a>���������</h2><p>���������е����ݼ��Ͻ��������������������������˱Ƚϡ�</p>
+<p>提出了一个完整的包含单目，双目和RGB-D传感器的SLAM系统。能够在CPU标准下执行重新定位，回环检测和地图重用功能。</p>
+<h2 id="结果与讨论"><a href="#结果与讨论" class="headerlink" title="结果与讨论"></a>结果与讨论</h2><p>在三个流行的数据集上进行评估，并与其他方法进行了比较。</p>
 <ul>
 <li>A. KITTI </li>
 </ul>
-<p><img src="1.png" alt="ͼƬ"></p>
+<p><img src="1.png" alt="图片"></p>
 <ul>
 <li><p>B. EuRoC </p>
 </li>
 <li><p>C.</p>
 </li>
 </ul>
-<h2 id="��Ҫ����"><a href="#��Ҫ����" class="headerlink" title="��Ҫ����"></a>��Ҫ����</h2><h2 id="�j�"><a href="#�j�" class="headerlink" title="�ĵ�"></a>�ĵ�</h2>
+<h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2>
       
     </div>
 
