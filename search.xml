@@ -10,7 +10,8 @@
     a = [e_1,e_2,e_3]\begin{bmatrix}
         a_1 \\ a_2 \\ a_3
     \end{bmatrix} = e_1a_1 + e_2a_2 + e_3a_3
-\end{aligned}</script><p>其中$[a_1,a_2,a_3]^T$为向量a在此基底下的坐标 \<br>向量为两个空间点的连线,具有+,-,内积,外积运算</p>
+\end{aligned}</script><p>其中$[a_1,a_2,a_3]^T$为向量a在此基底下的坐标 </p>
+<p>向量为两个空间点的连线,具有+,-,内积,外积运算</p>
 <ul>
 <li>内积<script type="math/tex; mode=display">\begin{aligned}
   a \cdot b = \begin{bmatrix}
@@ -53,7 +54,8 @@
     \end{bmatrix}\begin{bmatrix}
 a_1^{'} \\ a_2^{'} \\a_3^{'}
 \end{bmatrix} \overset{def}{=} Ra^{'}
-\end{aligned}</script><p>R定义为旋转矩阵,由于矩阵中每个元素为两个基底的内积(基底为单位向量)即值为两向量余弦值,所以又称为方向余弦矩阵 \<br>可知旋转矩阵为正交矩阵,因此有如下相反变换</p>
+\end{aligned}</script><p>R定义为旋转矩阵,由于矩阵中每个元素为两个基底的内积(基底为单位向量)即值为两向量余弦值,所以又称为方向余弦矩阵 </p>
+<p>可知旋转矩阵为正交矩阵,因此有如下相反变换</p>
 <script type="math/tex; mode=display">\begin{aligned}
     a^{'} = R^{-1}a= R^Ta
 \end{aligned}</script><ul>
@@ -93,7 +95,7 @@ a_1^{'} \\ a_2^{'} \\a_3^{'}
 \end{aligned}</script><p>旋转矩阵到旋转向量:</p>
 <script type="math/tex; mode=display">\begin{aligned}
 \begin{split}
-    tr(R) &= cos\theta tr(I) + (1 - cos\theta)tr(nn^T) + sin\theta tr(n\^{}) \\       
+    tr(R) &= cos\theta tr(I) + (1 - cos\theta)tr(nn^T) + sin\theta tr(n^{\wedge}) \\       
         &= 3cos\theta + 1-cos\theta \\
         &= 1 + 2cos\theta
     \end{split}
